@@ -21,7 +21,7 @@ Here are commands for Kenwood KX-3050 cassette deck:
 
 Commands working in both the power-on mode and stand-by mode (in decimal):
 121 - play
-112, 113, 115, 117, 122, 123, 125 - stop
+>> 112, 113, 115, 117, 122, 123, 125 - stop
 
 Commands working only in the power-on mode (in decimal):
 66 - search next track
@@ -31,6 +31,62 @@ Commands working only in the power-on mode (in decimal):
 74 - search previous track
 76 - pause
 */
+
+/*
+Here are the commands FROM the Kenwood KR-A5030 Audio/Video Receiver
+These are transmitted from the Kenwood RC-5030 Remote Control Unit
+(in decimal) 
+
+MISC
+Power On 181
+Power Off 185 (same button as above)
+Tuner BAND 123
+Num Pad +10
+
+INPUT
+Video 1 122
+Video 2 113
+Tape 1 121
+Tape 2 (toggle on) 20
+Tape 2 (toggle off) 24
+Phono 115
+Tuner 123
+CD 125
+
+TAPE A
+>> (fast forward) 67
+[] (stop) 69
+> (play) 71
+* (record) 73
+<< (rewind) 75
+|| (pause) 77
+< (rewind (slow?)) 79
+
+TAPE B
+>> 66
+[] 68
+> 70
+* 72
+<< 74
+|| 76
+< 78
+
+CD
+>/|| (toggle play or pause) 194
+[] 198
+Disc 174
+
+Below behavior needs to be further investigated but I suspect the receiver is expecting press and hold to scrub >> or << (and >>| or |<< ) and on release, the receiver sends the stop command: 
+<< 169
+>> 161
+|<< 200
+>>| 192
+Stop scrubbing (release) 177
+
+*/
+
+
+/// Below code is unused by this repository ///
 
 enum {
   SDAT = 2,
