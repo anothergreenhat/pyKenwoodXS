@@ -6,7 +6,7 @@
 
 ## How to Use
 
-Run `read_data.py` using `$ python3` on the Linux command line or any Python 3 interpretting interface you have!
+Run `read_data.py` using `python3` on the Linux command line or any Python 3 interpretting interface you have!
 
 ## Table of Results
 
