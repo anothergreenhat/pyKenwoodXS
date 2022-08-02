@@ -14,8 +14,8 @@ The below table makes pretty the data recorded at the top of KenwoodXS.ino
 
 | Button | Received Code |
 | --- | --- |
+
 | Miscellaneous |  |
-| :--- | ---: |
 | Toggle Power (On) | 181 |
 | Toggle Power (Off) | 185 |
 | Band (Tuner AM/FM) | 123 |
