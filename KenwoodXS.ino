@@ -41,7 +41,7 @@ MISC
 Power On 181
 Power Off 185 (same button as above)
 Tuner BAND 123
-Num Pad +10
+Num Pad +10 164
 
 INPUT
 Video 1 122
