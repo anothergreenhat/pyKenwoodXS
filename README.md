@@ -29,12 +29,20 @@ The below table makes pretty the data recorded at the top of KenwoodXS.ino
 | Tuner<sup>1</sup> | 123 |
 | CD | 125 |
 | **Tape A** |
-| >> (fast forward) | 67 |
-| [] (stop) | 69 |
-| > (play) | 71 |
-| * (record) | 73 |
-| << (rewind) | 75 |
-| \|\| (pause) | 77 |
-| < (rewind slow?) | 79 |
+| `>>` (fast forward) | 67 |
+| `[]` (stop) | 69 |
+| `>` (play) | 71 |
+| `*` (record) | 73 |
+| `<<` (rewind) | 75 |
+| `\|\|` (pause) | 77 |
+| `<` (rewind slow?) | 79 |
+| **Tape B** |
+| `>>` | 66 |
+| `[]` | 68 |
+| `>` | 70 |
+| `*` | 72 |
+| `<<` | 74 |
+| `\|\|` | 76 |
+| `<` | 78 |
 
 
