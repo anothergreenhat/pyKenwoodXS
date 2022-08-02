@@ -52,7 +52,7 @@ The below table makes pretty the data recorded at the top of KenwoodXS.ino
 | `<<`<sup>2</sup> | 169 |
 | `>>\|`<sup>2</sup> | 192 |
 | `\|<<`<sup>2</sup> | 200 |
-| (stop scurbbing/release fwd/rwd) | 177 |
+| (stop scrubbing/release fwd/rwd) | 177 |
 
 <sup>1</sup> The behavior of these buttons appear to be identical from this code extraction... but the actual behavior on the device changes to the `TUNER` input if the `TUNER` button is pressed, and switches between AM and FM if the `BAND` button is pressed. While they output the same code, I'm not sure how the receiver would be able to tell that the `BAND` button was pressed versus the `TUNER` button? There must be a bug in the code somewhere...
 
