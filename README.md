@@ -14,21 +14,21 @@ The below table makes pretty the data recorded at the top of KenwoodXS.ino
 
 | Button | Received Code |
 | --- | --- |
-| Miscellaneous |
+| **Miscellaneous** |
 | Toggle Power (On) | 181 |
 | Toggle Power (Off) | 185 |
 | Band (Tuner AM/FM)<sup>1</sup> | 123 |
 | Num Pad +10 | 164 |
-| Input |
-| Video 1 | 122 |
-| Video 2 | 113 |
-| Tape 1 | 121 |
+| **Input** |
 | Tape 2 (toggle on) | 20 |
 | Tape 2 (toggle off) | 24 |
+| Video 2 | 113 |
 | Phono | 115 |
+| Tape 1 | 121 |
+| Video 1 | 122 |
 | Tuner<sup>1</sup> | 123 |
 | CD | 125 |
-| Tape A |
+| **Tape A** |
 | >> (fast forward) | 67 |
 | [] (stop) | 69 |
 | > (play) | 71 |
@@ -36,4 +36,5 @@ The below table makes pretty the data recorded at the top of KenwoodXS.ino
 | << (rewind) | 75 |
 | \|\| (pause) | 77 |
 | < (rewind slow?) | 79 |
+
 
