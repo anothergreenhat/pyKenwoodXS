@@ -54,8 +54,8 @@ The below table makes pretty the data recorded at the top of KenwoodXS.ino
 | `\|<<`<sup>2</sup> | 200 |
 | (stop scurbbing/release fwd/rwd) | 177 |
 
-<sup>1</sup> The behavior of these buttons appear to be identical from this code extraction... but the actual behavior on the device changes to the `TUNER` input if the `TUNER` button is pressed, and switches between AM and FM if the `BAND` button is pressed. While the output the same code, I'm not sure how the receiver would be able to tell that the `BAND` button was pressed versus the `TUNER` button? There must be a bug in the code somewhere...
+<sup>1</sup> The behavior of these buttons appear to be identical from this code extraction... but the actual behavior on the device changes to the `TUNER` input if the `TUNER` button is pressed, and switches between AM and FM if the `BAND` button is pressed. While they output the same code, I'm not sure how the receiver would be able to tell that the `BAND` button was pressed versus the `TUNER` button? There must be a bug in the code somewhere...
 
-<sup>2</sup> All of these buttons send their listed code on press (and hold) of the button, and then send the stop code (177) on release of the button. I haven't tested this yet, as I do not own any Kenwood CD players or devices that support Kenwood XS other than this receiver, but I think I can safely suspect that this is meant to "scrub" through the CD (`>>/<<` through the current track with volume, `>>\|/\|<<` without volume and faster or by track instead of intra-track).
+<sup>2</sup> All of these buttons send their listed code on press (and hold) of the button, and then send the stop code (177) on release of the button. I haven't tested this yet, as I do not own any Kenwood CD players or devices that support Kenwood XS other than this receiver, but I think I can safely suspect that this is meant to "scrub" through the CD (`>>/<<` through the current track with volume, `>>|/|<<` without volume and faster or by track instead of intra-track).
 
 
