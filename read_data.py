@@ -15,16 +15,11 @@ def setup():
     gpio.add_event_detect(SDAT, gpio.RISING)
 
     
-def list_to_bin(byte: list, endian='big') -> int:
+def list_to_bin(byte: list) -> int:
     byte_s = byte
-    if endian == 'big':
-        byte_s.reverse()
-        return sum(b << i for i, b in enumerate(byte_s))
-    elif endian == 'little':
-        return sum(b << i for i, b in enumerate(byte_s))
-    else:
-        print(f'unknown endian scheme: \'{endian}\'')
-        return 0
+    byte_s.reverse()
+    return sum(b << i for i, b in enumerate(byte_s))
+
 
 def recv(): 
     byte = [None] * 8
