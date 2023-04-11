@@ -15,7 +15,7 @@ def setup():
     gpio.add_event_detect(SDAT, gpio.RISING)
 
     
-def list_to_bin(byte, endian='big'):
+def list_to_bin(byte: list, endian='big') -> int:
     byte_s = byte
     if endian == 'big':
         byte_s.reverse()
